@@ -1,0 +1,26 @@
+<?
+$MESS["BHT_SDMGATEWAY_DOMAIN_GATEWAY_DESC"] = "Домен платёжного шлюза";
+$MESS["BHT_SDMGATEWAY_DOMAIN_GATEWAY_PAGE_DESC"] = "Домен страницы оплаты";
+$MESS["BHT_SDMGATEWAY_TRANSACTION_TYPE_DESC"] = "Тип транзакции";
+$MESS["BHT_SDMGATEWAY_TRANSACTION_TYPE_PAYMENT_NAME"] = "Оплата";
+$MESS["BHT_SDMGATEWAY_TRANSACTION_TYPE_AUTHORIZATION_NAME"] = "Авторизация";
+$MESS["BHT_SDMGATEWAY_SHOP_ID_DESC"] = "ID торговца (Merchant)";
+$MESS["BHT_SDMGATEWAY_PAYMENT_TESTMODE_DESC"] = "Тестовый режим?";
+$MESS["BHT_SDMGATEWAY_PAYMENT_TESTMODE_DESC1"] = "Нет";
+$MESS["BHT_SDMGATEWAY_PAYMENT_TESTMODE_DESC2"] = "Да";
+$MESS["BHT_SDMGATEWAY_SHOP_TERMINAL_DESC"] = "Терминал торговца (Terminal)";
+$MESS["BHT_SDMGATEWAY_SHOP_KEY_DESC"] = "Ключ магазина (Key)";
+$MESS["BHT_SDMGATEWAY_BACK_URL_DESC"] = "Страница возврата";
+$MESS["BHT_SDMGATEWAY_CSS_FORM_DESC"] = "CSS для всплывающей или встраиваемой формы";
+$MESS["BHT_SDMGATEWAY_FORM_TYPE_DESC"] = "Тип формы оплаты";
+$MESS["BHT_SDMGATEWAY_FORM_TYPE_REDIRECT_NAME"] = "Перенаправление";
+$MESS["BHT_SDMGATEWAY_FORM_TYPE_INLINE_NAME"] = "Встраиваемая";
+$MESS["BHT_SDMGATEWAY_FORM_TYPE_OVERLAY_NAME"] = "Всплывающая";
+$MESS["BHT_SDMGATEWAY_TAB_NAME"] = "Настройка модуля оплаты sdmGateway";
+$MESS["BHT_SDMGATEWAY_TAB_DESC"] = "Страница настройки модуля";
+$MESS["BHT_SDMGATEWAY_SAVE_BTN_NAME"] = "Сохранить";
+$MESS["BHT_SDMGATEWAY_RESET_BTN_NAME"] = "Сбросить";
+$MESS["BHT_SDMGATEWAY_RESET_DEFAULTS_WARNING"] = "Установить настройки по-умолчанию ?";
+$MESS["BHT_SDMGATEWAY_PAYMENT_SYSTEM_DESC"] = "Выберите систему оплаты";
+$MESS["BHT_SDMGATEWAY_GROUPS_DESC"] = "Выберите группу пользователей, которым будет доступно управление транзакциями";
+$MESS["BHT_SDMGATEWAY_RESTORE_WARNING"] = "Текущие значения будут удалены";

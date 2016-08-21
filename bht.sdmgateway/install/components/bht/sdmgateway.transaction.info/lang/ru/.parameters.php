@@ -1,0 +1,2 @@
+<?
+$MESS["BHT_SDMGATEWAY_TOKEN"] = "Токен";

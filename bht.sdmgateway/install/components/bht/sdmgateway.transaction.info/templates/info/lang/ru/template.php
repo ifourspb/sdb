@@ -1,0 +1,10 @@
+<?
+$MESS["BHT_SDMGATEWAY_FAIL_TITLE"] = "Не оплачен";
+$MESS["BHT_SDMGATEWAY_SUCCESS_TITLE"] = "Оплачен";
+$MESS["BHT_SDMGATEWAY_STATUS"] = "Статус оплаты";
+$MESS["BHT_SDMGATEWAY_REFUND_AMOUNT"] = "Сумма возврата";
+$MESS["BHT_SDMGATEWAY_INFO_ORDER_DESC"] = "Описание:";
+$MESS["BHT_SDMGATEWAY_INFO_AMOUNT"] = "Сумма:";
+$MESS["BHT_SDMGATEWAY_INFO_ORDER_ID"] = "Номер заказа:";
+$MESS["BHT_SDMGATEWAY_INFO_UID"] = "Номер транзакции:";
+$MESS["BHT_SDMGATEWAY_FAIL_REJECTION_REASON"] = "Статус ошибки:";

@@ -1,0 +1,19 @@
+<?
+$MESS["BHT_SDMGATEWAY_NOT_CORRECT_ID"] = "Неверно задан ID заказа";
+$MESS["BHT_SDMGATEWAY_PS_NOT_FOUND"] = "ID платёжной системы не найден. Укажите его в настройках модуля.";
+$MESS["BHT_SDMGATEWAY_ORDER_NOT_FOUND"] = "Заказ не найден";
+$MESS["BHT_SDMGATEWAY_TRANSINFO_NOT_FOUND"] = "Информация по транзакциям не найдена";
+$MESS["BHT_SDMGATEWAY_TAB_TITLE"] = "Транзакции";
+$MESS["BHT_SDMGATEWAY_TITLE_DESC"] = "Информация по транзакциям";
+$MESS["BHT_SDMGATEWAY_ORDER_ID_TITLE"] = "ID Заказа";
+$MESS["BHT_SDMGATEWAY_AMOUNT_TITLE"] = "Цена";
+$MESS["BHT_SDMGATEWAY_USER_TITLE"] = "Пользователь в системе битрикс";
+$MESS["BHT_SDMGATEWAY_TRANSACTION_TITLE"] = "Транзакции";
+$MESS["BHT_SDMGATEWAY_TYPE_TITLE"] = "Тип";
+$MESS["BHT_SDMGATEWAY_UID_TITLE"] = "UID";
+$MESS["BHT_SDMGATEWAY_REASON_DESC"] = "Возврат денег";
+$MESS["BHT_SDMGATEWAY_REFUND"] = "Частичный возврат средств";
+$MESS["BHT_SDMGATEWAY_REFUND_DESCR"] = "Укажите сумму";
+$MESS["BHT_SDMGATEWAY_CANCEL"] = "Полный возврат средств (отмена)";
+$MESS["BHT_SDMGATEWAY_REFUND_AMOUNT"] = "Возвращено средств";
+$MESS["BHT_SDMGATEWAY_NOTIFY_DESC"] = "";
