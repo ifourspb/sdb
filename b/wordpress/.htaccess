@@ -1,0 +1,24 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} Traffic2cash.xyz [NC,OR]
+RewriteCond %{HTTP_REFERER} Traffic2cash.xyz
+RewriteRule .* - [F]
+
+RewriteCond %{HTTP_REFERER} с.новым.годом.рф [NC,OR]
+RewriteCond %{HTTP_REFERER} с.новым.годом.рф
+RewriteRule .* - [F]
+
+RewriteCond %{HTTP_REFERER} с.xn--b1aube0e.xn--c1acygb.xn--p1ai [NC,OR]
+RewriteCond %{HTTP_REFERER} с.xn--b1aube0e.xn--c1acygb.xn--p1ai
+RewriteRule .* - [F]
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress

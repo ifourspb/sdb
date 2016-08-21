@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vito v1.0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-07-09 11:14+0200\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vito
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка. Страница не найдена."
+
+# @ vito
+#: 404.php:9
+msgid "It looks like nothing was found at this location."
+msgstr "К сожалению, по вашему запросу ничего не найдено"
+
+# @ vito
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+# @ vito
+#: comments.php:17
+msgid "No Responses"
+msgstr "Нет комментариев"
+
+# @ vito
+#: comments.php:17
+msgid "One Response"
+msgstr "Один комментарий"
+
+# @ vito
+#: comments.php:17
+msgid "% Responses"
+msgstr "Комментариев: %"
+
+# @ vito
+#: comments.php:41
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ vito
+#: comments.php:69
+msgid "Comment"
+msgstr "Комментарий"
+
+# @ vito
+#: comments.php:81
+msgid "Name"
+msgstr "Имя"
+
+# @ vito
+#: comments.php:90
+msgid "Email"
+msgstr "Почта"
+
+# @ vito
+#: comments.php:99
+msgid "Website"
+msgstr "Сайт"
+
+# @ vito
+#: footer.php:5
+msgid "Proudly powered by "
+msgstr ""
+
+# @ vito
+#: footer.php:5
+msgid "https://wordpress.org/"
+msgstr ""
+
+# @ vito
+#: footer.php:5
+msgid "Vito theme designed by "
+msgstr ""
+
+# @ vito
+#: footer.php:5
+msgid "https://quemalabs.com/"
+msgstr ""
+
+# @ quemalabs_admin
+#: framework/Theme.php:169
+msgid "Navigation Menu"
+msgstr "Навигационное меню"
+
+# @ vito
+#: framework/functions/custom-functions.php:15
+msgid "Read More"
+msgstr "Читать далее"
+
+# @ vito
+#: framework/functions/custom-functions.php:38
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+# @ vito
+#: framework/functions/custom_comments.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки модератором."
+
+# @ vito
+#: framework/functions/custom_comments.php:45
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "﻿%1$s в %2$s"
+
+# @ vito
+#: framework/functions/custom_comments.php:47
+msgid "(Edit)"
+msgstr "Изменить"
+
+# @ vito
+#: framework/functions/theme_customizer.php:22
+msgid "Site Title"
+msgstr "Заголовок сайта"
+
+# @ vito
+#: framework/functions/theme_customizer.php:38
+msgid "Headings Color"
+msgstr "Цвет заголовков"
+
+# @ vito
+#: framework/functions/theme_customizer.php:50
+msgid "Content Color"
+msgstr "Цвет контента"
+
+# @ vito
+#: framework/functions/theme_customizer.php:62
+msgid "Links Color"
+msgstr "Цвет ссылок"
+
+# @ vito
+#: framework/functions/theme_customizer.php:73
+msgid "Social Icons"
+msgstr "Иконки соц. сетей"
+
+# @ vito
+#: framework/functions/theme_customizer.php:85
+msgid "Facebook"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:86
+msgid "Add your social URL:"
+msgstr "Добавить ваш социальный профиль."
+
+# @ vito
+#: framework/functions/theme_customizer.php:99
+msgid "Twitter"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:112
+msgid "Instagram"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:125
+msgid "Flickr"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:138
+msgid "Youtube"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:151
+msgid "Vimeo"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:164
+msgid "LinkedIn"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:177
+msgid "Skype"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:190
+msgid "Google Plus"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:203
+msgid "Tumblr"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:216
+msgid "Dribbble"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:229
+msgid "Foursquare"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:242
+msgid "Pinterest"
+msgstr ""
+
+# @ vito
+#: framework/functions/theme_customizer.php:255
+msgid "RSS"
+msgstr ""
+
+# @ vito
+#: framework/widget_areas/widget_areas.php:5
+msgid "Sidebar Widgets"
+msgstr "Виджеты сайдбара"
+
+# @ vito
+#: framework/widget_areas/widget_areas.php:7
+msgid "These are widgets for the sidebar."
+msgstr "Эти виджеты для боковой панели."
+
+# @ vito
+#: image.php:39 page.php:34 single.php:35
+msgid "Page"
+msgstr "Страница"
+
+# @ vito
+#: meta.php:4
+msgid "No Comments"
+msgstr "Нет комментариев"
+
+# @ vito
+#: meta.php:4
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+# @ vito
+#: meta.php:4
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+# @ vito
+#: pagination.php:10
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+# @ vito
+#: pagination.php:11
+msgid "Next page"
+msgstr "Следующая страница"
+
+# @ vito
+#: search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ vito
+#: templates/content-none.php:3
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Нам не удалось найти то, что вы ищите. Попробуйте воспользоваться поиском."

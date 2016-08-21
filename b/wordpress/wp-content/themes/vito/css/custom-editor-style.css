@@ -1,0 +1,12 @@
+body#tinymce.wp-editor { 
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    margin: 10px; 
+}
+
+body#tinymce.wp-editor a {
+    color: #68B1D5;
+}
+
+body#tinymce.wp-editor img{ 
+    max-width: 100%;
+}

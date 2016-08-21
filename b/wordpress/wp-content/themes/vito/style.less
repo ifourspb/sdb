@@ -1,0 +1,174 @@
+/*
+Theme Name: Vito
+Theme URI: http://themes.quemalabs.com/vito/
+Author: Quema Labs
+Author URI: http://www.quemalabs.com/
+Description: A free good looking theme.
+Version: 10.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, editor-style, featured-images, sticky-post, translation-ready
+Text Domain: vito
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*
+==========================================
+Theme Styles
+========================================== 
+*/
+
+html{font-size: 1em;}
+
+
+
+/* Animation at loading page */
+.home #header{opacity: 0; }
+.no-js .home #header{ opacity: 1; }
+.pace-done.home #header{ 
+	.animated();
+	.fadeInDown(); 
+}
+
+.home .post{
+	opacity: 0; 
+	.translate(0; 60px);
+	.transition(all 600ms);
+}
+.no-js .home .post{ opacity: 1; }
+.pace-done.home .post{
+	.transition-delay(800ms);
+	opacity: 1;
+	.translate(0; 0);
+}
+
+.home #sidebar{
+	opacity: 0;
+	.translate(0; -60px);
+	.transition(all 600ms);
+}
+.no-js .home #sidebar{ opacity: 1; }
+.pace-done.home #sidebar{
+	.transition-delay(1100ms);
+	opacity: 1;
+	.translate(0; 0);
+}
+
+/*
+==========================================
+Header
+========================================== 
+*/
+@import "theme_less/_header.less";
+
+
+/*
+==========================================
+Blog & Pages
+========================================== 
+*/
+@import "theme_less/_blog-pages.less";
+
+
+/*
+==========================================
+Footer
+========================================== 
+*/
+@import "theme_less/_footer.less";
+
+
+/*
+==========================================
+Sidebar
+========================================== 
+*/
+@import "theme_less/_sidebar.less";
+
+
+/*
+==========================================
+Comments
+========================================== 
+*/
+@import "theme_less/_comments.less";
+
+
+/*
+==========================================
+Pace (Loading animation)
+========================================== 
+*/
+@import "theme_less/_pace.less";
+
+
+/*
+==========================================
+Animate CSS
+========================================== 
+*/
+@import "theme_less/_animate.min.less";
+
+
+/*
+==========================================
+WordPress Default
+========================================== 
+*/
+@import "theme_less/_wp-default.less";
+
+
+
+
+
+/*
+==========================================
+Global Styles
+========================================== 
+*/
+@import "theme_less/_global.less";
+
+
+
+/*
+==========================================
+Responsive Styles
+========================================== 
+*/
+	/*
+	// Extra Small Breakpoint
+	// ------------------
+	*/
+	@import "theme_less/_mediaquery-xs.less";
+
+	/*
+	// Small Breakpoint
+	// ------------------
+	*/
+	@import "theme_less/_mediaquery-sm.less";
+
+	/*
+	// Medium Breakpoint
+	// ------------------
+	*/
+	@import "theme_less/_mediaquery-md.less";
+
+	/*
+	// Extra Larga Breakpoint
+	// ------------------
+	*/
+	@import "theme_less/_mediaquery-lg.less";
+
+
+
+
+/*
+==========================================
+LESS Variables and Mixins
+========================================== 
+*/
+@import "less/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "less/mixins.less";

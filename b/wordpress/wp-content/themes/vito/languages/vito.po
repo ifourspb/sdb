@@ -1,0 +1,242 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vito\n"
+"POT-Creation-Date: 2015-05-25 04:59-0300\n"
+"PO-Revision-Date: 2015-05-25 04:56-0300\n"
+"Last-Translator: \n"
+"Language-Team: Quema Labs <support@quemalabs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:9
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:17
+msgid "One Response"
+msgstr ""
+
+#: comments.php:17
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:69
+msgid "Comment"
+msgstr ""
+
+#: comments.php:81
+msgid "Name"
+msgstr ""
+
+#: comments.php:90
+msgid "Email"
+msgstr ""
+
+#: comments.php:99
+msgid "Website"
+msgstr ""
+
+#: footer.php:5
+msgid "Proudly powered by "
+msgstr ""
+
+#: footer.php:5
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:5
+msgid "Vito theme designed by "
+msgstr ""
+
+#: footer.php:5
+msgid "https://quemalabs.com/"
+msgstr ""
+
+#: framework/Theme.php:169
+msgid "Navigation Menu"
+msgstr ""
+
+#: framework/functions/custom-functions.php:15
+msgid "Read More"
+msgstr ""
+
+#: framework/functions/custom_comments.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/custom_comments.php:45
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/functions/custom_comments.php:47
+msgid "(Edit)"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:22
+msgid "Site Title"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:38
+msgid "Headings Color"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:50
+msgid "Content Color"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:62
+msgid "Links Color"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:73
+msgid "Social Icons"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:85
+msgid "Facebook"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:86
+msgid "Add your social URL:"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:99
+msgid "Twitter"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:112
+msgid "Instagram"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:125
+msgid "Flickr"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:138
+msgid "Youtube"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:151
+msgid "Vimeo"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:164
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:177
+msgid "Skype"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:190
+msgid "Google Plus"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:203
+msgid "Tumblr"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:216
+msgid "Dribbble"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:229
+msgid "Foursquare"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:242
+msgid "Pinterest"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:255
+msgid "RSS"
+msgstr ""
+
+#: framework/widget_areas/widget_areas.php:5
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: framework/widget_areas/widget_areas.php:7
+msgid "These are widgets for the sidebar."
+msgstr ""
+
+#: image.php:39 page.php:34 single.php:33
+msgid "Page"
+msgstr ""
+
+#: meta.php:4
+msgid "No Comments"
+msgstr ""
+
+#: meta.php:4
+msgid "1 Comment"
+msgstr ""
+
+#: meta.php:4
+msgid "% Comments"
+msgstr ""
+
+#: pagination.php:10
+msgid "Previous page"
+msgstr ""
+
+#: pagination.php:11
+msgid "Next page"
+msgstr ""
+
+#: search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: templates/content-none.php:3
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Vito"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.quemalabs.com/vito/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A free good looking theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quema Labs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.quemalabs.com/"
+msgstr ""

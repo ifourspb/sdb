@@ -1,0 +1,272 @@
+#header{
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 10;
+}
+#header .container{
+	position: relative;
+}
+
+.logo_container{
+	margin: 30px 0;
+}
+.logo_container h1{
+	margin: 0;
+	.font-size(30);
+}
+
+.logo_container .ql_logo{
+	.font-size(30);
+	color: @gray-dark;
+	font-weight: bold;
+	.transition( all 400ms ease-in-out);
+}
+
+.logo_container .ql_logo:hover{
+	text-decoration: none;
+}
+.logo_container .logo_desc{
+	font-family: @font-family-serif;
+	font-style: italic;
+	.font-size(14);
+	color: @gray-light2;
+	margin: 0;
+}
+/*-----------------------------*/
+
+
+
+
+
+
+/*
+Nav Menu
+---------------------------------------*/
+
+#ql_main-navigation.in{
+	overflow: visible;
+}
+
+#jqueryslidemenu{
+	margin: 30px 0;
+}
+#jqueryslidemenu ul.nav{
+	text-align: right;
+}
+
+/*Top level list items*/
+#jqueryslidemenu  ul.nav > li{
+	margin-left: 0.625em;
+	display: inline-block;
+}
+/*Top level menu link items style*/
+#jqueryslidemenu ul.nav > li > a{
+	text-decoration: none;
+	.font-size(16);
+    .transition( all 200ms ease-in-out);
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    color: @navColor;
+}
+#jqueryslidemenu ul.nav > li > a:hover{
+	background-color: rgba(0,0,0,0.02);
+}
+
+/* Active item ----------*/
+#jqueryslidemenu .current_page_item > a, #jqueryslidemenu .current_page_parent > a{
+
+}
+#jqueryslidemenu .current_page_item > a:hover, #jqueryslidemenu .current_page_parent > a:hover{
+
+}
+
+
+
+/*1st sub level menu*/
+#jqueryslidemenu ul.nav > li > ul{
+	z-index: 50;
+}
+#jqueryslidemenu ul.nav > li > ul > li{
+	//border-bottom: 1px solid @gray-lighter;
+}
+#jqueryslidemenu ul.nav > li > ul > li a{
+	.font-size(13);
+	padding: 0.5em 1.42857142857143em;
+	font-weight: bold;
+}
+#jqueryslidemenu ul.nav > li > ul > li a:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+
+#jqueryslidemenu ul.nav > li > ul li ul{
+	left: 100%;
+	top: 0;
+	z-index: 51;
+}
+
+/* Multi level dropdown -------*/
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    left: 0;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+	color: inherit;
+    display: block;
+    content: "\f0da";
+    float: right;
+    width: 0;
+    height: 0;
+    margin-top: 0px;
+    margin-right: -10px;
+    font-size: 14px;
+    font-size: 1rem;
+    font-family: FontAwesome;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+
+
+
+
+/* Mobile Nav icon (Hamburguer) -----------*/
+#jqueryslidemenu .navbar-toggle .icon-bar{
+	background-color: @heroColor;
+}
+
+/* Dropdown arrow ------------*/
+.navbar .dropdown-toggle b{
+	color: @gray-light2;
+}
+
+
+
+
+
+/* Select Navigation */
+.tinynav { 
+	display: none;
+	height: 2.2em;
+	font-size: 1em;
+	margin: 0 auto 1.2em auto;
+ }
+/*
+End Nav Menu
+---------------------------------------*/
+
+
+
+
+
+/*
+Mobile Menu Button
+---------------------------------------*/
+#ql-main-nav-btn{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	margin: 0;
+	padding: 5px;
+}
+#ql-main-nav-btn i{
+	.font-size(24);
+}
+
+
+
+
+
+/*
+Social Nav
+---------------------------------------*/
+.nav_social{
+	position: relative;
+	margin-bottom: 4.375em;
+	text-align: center;
+}
+.nav_social li{
+	width: 45px;
+	height: 45px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+}
+.nav_social li a i{
+	
+}
+
+.nav_social li a{
+	text-align: center;
+	line-height: 45px;
+	.font-size(24);
+	font-weight: normal;
+	color: @gray-light2;
+	display: block;
+	width: 45px;
+	height: 45px;
+	padding: 0!important;
+	position: relative;
+	z-index: 5;
+	left: 1px;
+	.transition( all 100ms linear);
+	border-radius: 100%;
+	background-color: transparent;
+	overflow: hidden;
+}
+.nav_social li a:hover{
+	color: @white;
+}
+.nav_social li a:hover i{
+	color: #fff;
+	.animation(social_icons_anim 600ms ease);
+}
+.nav_social li.n_facebook a {color:#3B5998;}
+.nav_social li.n_twitter a {color:#33CCFF;}
+.nav_social li.n_dribbble a {color:#C5376D;}
+.nav_social li.n_instagram a {color:#427097;}
+.nav_social li.n_flickr a {color:#FF0084;}
+.nav_social li.n_youtube a {color:#C1302A;}
+.nav_social li.n_vimeo-square a {color:#1AB7EA;}
+.nav_social li.n_foursquare a {color:#1DAFEC;}
+.nav_social li.n_skype a {color:#00AFF0;}
+.nav_social li.n_google-plus a {color:#D5402B;}
+.nav_social li.n_tumblr a {color:#343B4A;}
+.nav_social li.n_linkedin a {color:#0073B2;}
+.nav_social li.n_pinterest a {color:#CB2027;}
+.nav_social li.n_rss a {color:#FF6600;}
+
+.nav_social li.n_facebook a:hover {background-color:#3B5998;}
+.nav_social li.n_twitter a:hover {background-color:#33CCFF;}
+.nav_social li.n_dribbble a:hover {background-color:#C5376D;}
+.nav_social li.n_instagram a:hover {background-color:#427097;}
+.nav_social li.n_flickr a:hover {background-color:#FF0084;}
+.nav_social li.n_youtube a:hover {background-color:#C1302A;}
+.nav_social li.n_vimeo-square a:hover {background-color:#1AB7EA;}
+.nav_social li.n_foursquare a:hover {background-color:#1DAFEC;}
+.nav_social li.n_skype a:hover {background-color:#00AFF0;}
+.nav_social li.n_google-plus a:hover {background-color:#D5402B;}
+.nav_social li.n_tumblr a:hover {background-color:#343B4A;}
+.nav_social li.n_linkedin a:hover {background-color:#0073B2;}
+.nav_social li.n_pinterest a:hover {background-color:#CB2027;}
+.nav_social li.n_rss a:hover {background-color:#FF6600;}
+
+
